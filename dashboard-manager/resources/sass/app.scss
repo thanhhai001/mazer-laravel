@@ -1,8 +1,31 @@
-// Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+@import "~bootstrap/scss/bootstrap";
+// @import "./variables";
+// @import "~bootstrap-icons/font/bootstrap-icons";
+// @import "./mazer";
+.sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: bisque;
+    bottom: 0;
+    transition: left 0.7s cubic-bezier(0.22, 1, 0.36, 1);
 
-// Variables
-@import 'variables';
+    // .sidebar-header {
+    // }
 
-// Bootstrap
-@import 'bootstrap/scss/bootstrap';
+    .sidebar-menu {
+        .menu {
+            margin-top: 2rem;
+            padding: 0 2rem;
+            font-weight: 600;
+            .sidebar-title {
+                padding: 0 1rem;
+                margin: 1.5rem 0 1rem;
+                font-size: 1rem;
+                list-style: none;
+                font-weight: 600;
+                color: #25396f;
+            }
+        }
+    }
+}
