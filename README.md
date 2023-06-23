@@ -4,14 +4,10 @@
 - pages customize the mazer template
 
 # start build command
-  // Create project
-- composer create-project laravel/laravel dashboard-manager
-  // Require laravel/ui
-- cd /dashboard-manager && composer require laravel/ui
-  // Generate login / registration scaffolding...
-- php artisan ui bootstrap --auth
-  // Insatll library
-- npm instal && npm install vite
+- Create project: **composer create-project laravel/laravel dashboard-manager**
+- Require laravel/ui : **cd /dashboard-manager** && **composer require laravel/ui**
+- Generate login / registration scaffolding...: **php artisan ui bootstrap --auth**
+- Insatll library: **npm instal && npm install vite**
 
 # clone to install command
 1. cd /dashboard-manager
